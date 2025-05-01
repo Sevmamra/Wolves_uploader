@@ -47,10 +47,10 @@ zipimg = "https://i.postimg.cc/C5T2SN20/photo-2025-04-02-18-19-12.jpg"
 
 watermark_text = "𝗪𝗢𝗟𝗩𝗘𝗦 🐺"
 credit =("𝗪𝗢𝗟𝗩𝗘𝗦 🐺") 
-OWNER = int(os.environ.get("OWNER",2607963795))
+OWNER = int(os.environ.get("OWNER",6567162029))
 try: 
     ADMINS=[2607963795] 
-    for x in (os.environ.get("ADMINS", "2607963795").split()):  
+    for x in (os.environ.get("ADMINS", "6567162029").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
@@ -66,12 +66,12 @@ api_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzkxOTMzNDE5NS
 token_cp ='eyJjb3Vyc2VJZCI6IjQ1NjY4NyIsInR1dG9ySWQiOm51bGwsIm9yZ0lkIjo0ODA2MTksImNhdGVnb3J5SWQiOm51bGx9r'
     
 # Define the owner's user ID
-OWNER_ID = 2607963795 # Replace with the actual owner's user ID
+OWNER_ID = 6567162029 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [2607963795]
+SUDO_USERS = [6567162029]
 
-AUTH_CHANNEL = -1002584206496
+AUTH_CHANNEL = -1002303981738
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
